@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.writer-info {
+    margin-right: auto; /* 제목과 버튼 사이의 공간 확보 */
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px; /* 버튼 간격 */
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.edit-module {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.save-button,
+.cancel-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+
+.post-view {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px; /* 로고 크기 조정 */
+}
+
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post-info {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.postimage {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.add-comment-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-comment-button:hover {
+    background-color: #0056b3;
+}
